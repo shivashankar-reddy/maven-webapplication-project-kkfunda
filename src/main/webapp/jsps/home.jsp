@@ -46,7 +46,7 @@
 <body>
 
 <header>
-    <h1>🚀 Learning DevOps Course 🚀</h1>
+    <h1>🚀 Learning DevOps Course from KK 🚀</h1>
     <h3>Training | Development | Consulting</h3>
 </header>
 

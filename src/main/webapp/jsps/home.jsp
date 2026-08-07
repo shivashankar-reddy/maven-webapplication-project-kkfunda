@@ -46,7 +46,7 @@
 <body>
 
 <header>
-    <h1>🚀 Learning DevOps  🚀</h1>
+    <h1>🚀 Learning DevOps Daily 🚀</h1>
     <h3>Training | Development | Consulting</h3>
 </header>
 

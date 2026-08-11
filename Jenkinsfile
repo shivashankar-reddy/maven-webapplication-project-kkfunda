@@ -4,8 +4,8 @@ node
 
     def mavenHome=tool name: "maven-3.9.16"
     stage('Pipeline')
-    sh 'echo "This is Scripted way pipeline" '
-    
+    sh 'echo "This is Scripted way pipeline 1" '
+
     stage('Git checkout')
     git branch: 'master', url: 'https://github.com/shivashankar-reddy/maven-webapplication-project-kkfunda.git'
 

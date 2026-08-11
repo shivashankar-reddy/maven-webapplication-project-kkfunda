@@ -14,5 +14,8 @@ node
 
     stage('Build')
     sh "${mavenHome}/bin/mvn clean package"
+
+    stage('SQ Report')
+    sh "${mavenHome}/bin/mvn sonar:sonar"
     
 } //Node Ending 

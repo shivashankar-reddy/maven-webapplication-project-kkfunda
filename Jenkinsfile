@@ -1,5 +1,5 @@
 node
 {
-    stage('test 1')
-    sh 'echo "this is test 1"'
+    stage('Git checkout')
+    git 'https://github.com/shivashankar-reddy/maven-webapplication-project-kkfunda.git'
 } //Node Ending 

@@ -18,5 +18,14 @@ node
 
     stage('Deploy Artifact to Nexus')
     sh "${mavenHome}/bin/mvn deploy"
+
+    stage('Deploy to Tomcat')
+    sh """
+
+      curl -u kk:password \
+--upload-file /var/lib/jenkins/workspace/scripted-way-PL-1/target/maven-web-application.war \
+"http://13.233.139.139:8080/manager/text/deploy?path=/maven-web-application&update=true"
+          
+        """
     
 } //Node Ending 

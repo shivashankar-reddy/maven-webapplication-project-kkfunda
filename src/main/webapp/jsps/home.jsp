@@ -46,7 +46,7 @@
 <body>
 
 <header>
-    <h1>🚀 Learning DevOps Daily at 7.30 PM 🚀</h1>
+    <h1>🚀 Welcome to DevOps World 🚀</h1>
     <h3>Training | Development | Consulting</h3>
 </header>
 

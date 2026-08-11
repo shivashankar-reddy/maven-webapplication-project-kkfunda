@@ -11,5 +11,8 @@ node
 
     stage('Compile')
     sh "${mavenHome}/bin/mvn compile"
+
+    stage('Build')
+    sh "${mavenHome}/bin/mvn clean package"
     
 } //Node Ending 
